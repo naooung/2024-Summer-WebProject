@@ -1,0 +1,37 @@
+section .title p {
+    color: #a087d2;
+}
+section .do-me::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section .do-me .do-inner {
+    background-color: #fff;
+    width: 30%;
+    padding: 2rem;
+    float: left;
+    margin-right: 5%;
+    cursor: pointer;
+}
+section .do-me .do-inner:last-child {
+    margin-right: 0;
+}
+section .do-me .do-inner .icon i{
+    font-size: 2.5rem;
+    color: #663399;
+}
+section .do-me .do-inner .content h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+section .do-me .do-inner .content p {
+    font-size: 1.2rem;
+}
+section .do-me .do-inner:hover {
+    background-color: #8966cf;
+    color: white;
+}
+section .do-me .do-inner:hover i {
+    color:white;
+}

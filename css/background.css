@@ -1,0 +1,6 @@
+.bg {
+    background: url('../image/beach.png') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+}
