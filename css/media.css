@@ -1,8 +1,9 @@
 @media screen and (max-width:1140px) {
-    /* About Me */
     main .container {
         width: 992px;
     }
+    
+    /* About Me */
     section .container {
         width: 600px;
     }
